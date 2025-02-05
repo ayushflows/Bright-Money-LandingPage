@@ -8,7 +8,7 @@
     font-family: 'Gilroy-Bold';
     src: url('../fonts/Gilroy-ExtraBold.otf') format('opentype');
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
 }
 *{
     margin: 0;
@@ -249,7 +249,7 @@ margin-right: 15px;
 .bright-features{
     background: #F6FEF7;
     min-height: 100vh;
-    padding: 6rem 0;
+    padding: 6rem 0 1rem 0;
 }
 
 .bright-features p{
@@ -325,6 +325,7 @@ margin-right: 15px;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #383C43;
+    font-weight: 600;
 }
 
 .bright-feature-content .content-desc{
@@ -348,3 +349,86 @@ margin-right: 15px;
     color: black
 }
 
+.testinomials{
+    padding: 8rem 0;
+}
+
+.testinomials h1{
+    font-family: Gilroy-Bold;
+    font-size: 3rem;
+    line-height: 2.6rem;
+    letter-spacing: -0.02rem;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #383C43;
+    text-align: center;
+}
+
+.testinomials p{
+    font-family: Gilroy;
+    font-size: 1.2rem;
+    line-height: 2.6rem;
+    letter-spacing: -0.02rem;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0E1E14;
+    text-align: center;
+    padding: 1rem 0;
+    font-weight: 400;
+}
+
+.testinomial-content{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 0 auto;
+    margin-top: 3rem;
+    height: 250px;
+}
+
+.testinomial-content-elements{
+    width: 100%;
+    padding: 1.5rem;
+    background: #F4F5F8;
+    border-radius: 15px;
+    opacity: 0px;
+    max-width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.testinomial-content-elements img{
+    height: 16px;
+    object-fit: contain;
+}
+
+.testinomial-content-elements h2{
+    font-family: Gilroy-Bold;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    letter-spacing: -0.02rem;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #383C43;
+    text-align: center;
+}
+
+.testinomial-content-elements p{
+    text-align: left;
+    font-family: Gilroy;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    letter-spacing: -0.02rem;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0E1E14;
+    padding: 1rem 0;
+    font-weight: 400;
+}
