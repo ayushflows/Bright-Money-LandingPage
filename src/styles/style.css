@@ -275,6 +275,7 @@ margin-right: 15px;
     border-image-source: linear-gradient(90deg, rgba(213, 215, 219, 0) 5.73%, #BAE8CB 84.9%);
     border-image-slice: 1;
 }
+
 .bright-features hr:nth-of-type(2) {
     width: 70%;
     margin: 5rem auto;
@@ -380,7 +381,7 @@ margin-right: 15px;
 }
 
 .testinomial-content{
-    width: 85%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -395,7 +396,7 @@ margin-right: 15px;
     background: #F4F5F8;
     border-radius: 15px;
     opacity: 0px;
-    max-width: 22%;
+    max-width: 23%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -431,4 +432,142 @@ margin-right: 15px;
     color: #0E1E14;
     padding: 1rem 0;
     font-weight: 400;
+}
+
+.faq-section{
+    margin: 5rem auto;
+}
+
+.faq-section h1{
+    font-family: Gilroy;
+    font-size: 3rem;
+    line-height: 2.6rem;
+    letter-spacing: -0.02rem;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #383C43;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.faq-section h1 span{
+    font-family: Gilroy-Bold;
+}
+
+.faq-section hr{
+    width: 80%;
+    margin: 0 auto;
+    margin: 1rem auto;
+    border: 2px solid #D5D7DB
+}
+
+.faq-content{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-content img{
+    height: 40px;
+}
+
+.faq-content p{
+    text-align: left;
+    font-family: Gilroy;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    letter-spacing: -0.02rem;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0E1E14;
+    padding: 1rem 0;
+    font-weight: 600;
+}
+
+.bright-banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(101.18deg, #E5F1E3 0.62%, #BAE8CB 69.56%);
+}
+
+.bright-banner .banner-content{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.bright-banner .banner-content h1{
+    font-family: Gilroy-Bold;
+    font-size: 3rem;
+    line-height: 2.6rem;
+    letter-spacing: -0.02rem;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #383C43;
+    text-align: center;
+}
+
+.bright-banner .banner-content p{
+    text-align: left;
+    font-family: Gilroy;
+    font-size: 3rem;
+    line-height: 3rem;
+    letter-spacing: -0.02rem;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0E1E14;
+    padding: 1rem 0;
+    font-weight: 500;
+}
+
+
+.bright-banner img{
+    width: 40%;
+    object-fit: contain;
+}
+
+.bright-disclamer{
+    width: 80%;
+    margin: 8rem auto;
+}
+
+.bright-disclamer p{
+    font-family: Gilroy;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    letter-spacing: -0.02rem;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #787F88;
+    padding: 1rem 0;
+    font-weight: 600;
+}
+
+.bright-disclamer ol{
+    list-style-type: decimal;
+    padding-left: 1rem;
+    font-family: Gilroy;
+    color: #787F88;
+}
+.bright-disclamer ol li{
+    font-family: Gilroy;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    letter-spacing: -0.02rem;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #787F88;
+    font-weight: 400;
+    margin-bottom: 0.2rem;
 }
