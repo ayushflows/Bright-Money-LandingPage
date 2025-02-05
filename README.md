@@ -18,7 +18,7 @@ landing-page
 ## Getting Started
 
 To set up and run the landing page, follow these steps:
-
+                                            
 1. **Clone the repository**:
    ```
    git clone https://github.com/ayushflows/Bright-Money-LandingPage.git
