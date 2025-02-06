@@ -1,9 +1,29 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const button = document.getElementById('cta-button');
-    
-    if (button) {
-        button.addEventListener('click', () => {
-            alert('Button clicked! Welcome to our landing page!');
-        });
-    }
+const carouselContainer = document.querySelector('.carousel-container');
+const cards = document.querySelectorAll('.testinomial-content-elements');
+
+function cloneCardsForSmallScreens() {
+  if (window.innerWidth <= 768) {
+    cards.forEach((card) => {
+      const clone = card.cloneNode(true);
+      carouselContainer.appendChild(clone);
+    });
+  } else {
+    const clones = carouselContainer.querySelectorAll('.testinomial-content-elements');
+    clones.forEach(clone => {
+      if (clone !== cards[0] && clone !== cards[1] && clone !== cards[2] && clone !== cards[0] && clone !== cards[3]) {
+        clone.remove();
+      }
+    });
+  }
+}
+
+cloneCardsForSmallScreens();
+window.addEventListener('resize', cloneCardsForSmallScreens);
+
+carouselContainer.addEventListener('mouseover', () => {
+  carouselContainer.style.animationPlayState = 'paused';
+});
+
+carouselContainer.addEventListener('mouseout', () => {
+  carouselContainer.style.animationPlayState = 'running';
 });
