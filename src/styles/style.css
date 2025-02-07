@@ -305,6 +305,7 @@ header {
 .bright-features-first {
   width: 70%;
   display: flex;
+  justify-content: space-between;
   margin: 3rem auto;
 }
 
@@ -312,15 +313,26 @@ header {
   width: 70%;
   display: flex;
   flex-direction: row-reverse;
+  justify-content: space-between;
   margin: 3rem auto;
 }
 
-.bright-main-img {
+.bright-features-first picture{
   width: 40%;
+  overflow: hidden;
+}
+
+.bright-features-second picture{
+  width: 40%;
+  overflow: hidden;
+}
+
+.bright-main-img {
+  width: 100%;
 }
 
 .bright-feature-content {
-  width: 60%;
+  width: 50%;
   margin: auto 0 auto 2rem;
   display: flex;
   flex-direction: column;
