@@ -69,7 +69,7 @@ The HTML structure has been optimized for SEO by including appropriate headings,
   },
   "offers": {
     "@type": "Offer",
-    "url": "https://www.brightmoney.co",
+    "url": "https://ayushflows.github.io/Bright-Money-LandingPage/",
     "priceCurrency": "USD",
     "price": "0",
     "eligibleRegion": {
