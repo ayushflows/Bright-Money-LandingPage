@@ -378,6 +378,11 @@ header {
   font-family: Gilroy-Bold;
   font-size: 1rem;
   color: black;
+  cursor: pointer;
+  transition-duration: 200ms;
+}
+.bright-feature-content .content-button:hover{
+  scale: 1.02;
 }
 
 .testinomials {
@@ -936,6 +941,11 @@ header {
     font-size: 1.25rem;
     color: white;
     background: #0E1E14;
+    cursor: pointer;
+    transition-duration: 500ms;
+  }
+  .start-button button:hover{
+  scale: 1.02;
   }
 
   .start-button button img{

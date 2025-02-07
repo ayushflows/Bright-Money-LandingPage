@@ -87,8 +87,8 @@ For further SEO improvements, please refer to the [SEO Improvements Document](./
 Basic tracking has been set up using GTM and GA. The GTM container includes tags for tracking page views and button clicks. Google Analytics is configured to capture basic metrics and events, including an event that triggers when a specific button is clicked.
 
 ### GTM Container and Tag Configurations
-![GTM Container](./assets/screenshots/gtm_container.png)
-![GTM Tag Configuration](./assets/screenshots/gtm_tag_configuration.png)
+![GTM Container](./assets/landingpage_screenshots/GA_dashboard.png)
+![GTM Tag Configuration](./assets/landingpage_screenshots/gtm_tag_configuration.png)
 
 ### Proof of Google Analytics Event Tracking
 ![GA Event Tracking](./assets/screenshots/ga_event_tracking.png)
