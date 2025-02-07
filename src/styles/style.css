@@ -109,7 +109,7 @@ header {
 }
 
 .hero-content {
-  width: 70%;
+  /* width: 70%; */
   margin: 0 auto;
   margin-top: 60px;
 }
@@ -145,11 +145,12 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 3rem;
   font-family: Gilroy;
   font-weight: 600;
   font-size: 15px;
   line-height: 24px;
+  width: 75%;
+  margin: 3rem auto;
 }
 
 .hero-markup-elements {
@@ -547,6 +548,7 @@ header {
   justify-content: center;
   align-items: start;
 }
+
 .bright-banner .banner-content h1 {
   font-family: Gilroy-Bold;
   font-size: 3rem;
@@ -620,8 +622,259 @@ header {
 }
 
 
+@media screen and (max-width: 1080px) {
+  .hero-content {
+    width: 90%;
+  }
+
+  .hero-text h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .hero-text p {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    line-height: 3rem;
+    font-weight: 600;
+  }
+
+  .hero-markup{
+    width: 100%;
+    justify-content: space-between;
+    margin: 3rem auto;
+  }
+
+  .bright-section {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5rem 0 2rem 0;
+  }
+  
+  .bright-section p {
+    font-size: 3.25rem;
+    line-height: 3.75rem;
+  }
+  .bright-section p span {
+    display: block;
+  }
+  
+  .bright-section hr {
+    width: 90%;
+    margin: 3rem auto;
+  }
+  
+  .bright-section-content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  
+  .bright-section-content-elements {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0px;
+    max-width: 32%;
+  }
+  .bright-section-content-elements img {
+    height: 2.5rem;
+    object-fit: contain;
+  }
+
+  .bright-section-content-elements p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .bright-companies {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3rem;
+    min-height: 80px;
+    padding: 2rem auto;
+    background: #f4f5f8;
+    gap: 0;
+  }
+  
+  .bright-companies img {
+    height: 1.75rem;
+    object-fit: contain;
+  }
+  
+  .bright-companies img:first-of-type {
+    height: 10px;
+    object-fit: cover;
+    margin-right: 5px;
+  }
+
+  .bright-features p {
+    font-size: 3.25rem;
+    line-height: 3.75rem;
+  }
+  
+  .bright-features p span {
+    display: block;
+  }
+  
+  
+  .bright-features hr {
+    width: 80%;
+    margin: 4rem auto;
+  }
+  
+  .bright-features hr:nth-of-type(2) {
+    width: 80%;
+    margin: 4rem auto;
+  }
+  
+  .bright-features-first {
+    width: 80%;
+  }
+  
+  .bright-features-second {
+    width: 80%;
+  }
+  .bright-feature-content {
+    width: 60%;
+  }
+  
+  .bright-feature-content .content-number {
+    color: #17c95f;
+    font-size: 20px;
+  }
+  
+  .bright-feature-content .content-heading {
+    font-size: 2rem;
+    line-height: 2.6rem;
+  }
+  
+  .bright-feature-content .content-desc {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .testinomial-content {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 3rem;
+    height: 250px;
+  }
+
+  .carousel-container {
+    display: flex;
+    width: max-content;
+    animation: scrollCarousel 15s linear infinite;
+    animation-play-state: running;
+    width: 100%;
+    overflow: visible;
+  }
+  
+  .testinomial-content-elements {
+    flex: 0 0 30%;
+    margin: 0 1rem;
+    padding: 1.5rem;
+    background: #f4f5f8;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    max-width: 30%;
+  }
+  
+  @keyframes scrollCarousel {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .testinomial-content-elements img {
+    height: 16px;
+    object-fit: contain;
+  }
+  
+  .testinomial-content-elements h2 {
+    font-family: Gilroy;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-weight: 800;
+  }
+  
+  .testinomial-content-elements p {
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    margin: 0;
+  }
+
+  .bright-banner .banner-content {
+    width: 45%;
+  }
+  
+  .bright-banner .banner-content h1 {
+    font-family: Gilroy-Bold;
+    font-size: 2.6rem;
+    line-height: 3rem;
+    letter-spacing: -0.02rem;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #383c43;
+    text-align: center;
+  }
+  
+  .bright-banner .banner-content p {
+    font-size: 2.6rem;
+    line-height: 3rem;
+    padding: 0;
+  }
+  
+  .bright-banner picture{
+      width: 40%;
+  }
+  
+  .bright-banner picture img {
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .faq-section h1 {
+    font-size: 2.75rem;
+    line-height: 3.5rem;
+  }
+  
+  .faq-section h1 span {
+    display: block;
+  }
+
+  .faq-content img {
+    height: 30px;
+  }
+  
+  .faq-content p {
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+  }
+
+}
+
+
 /* For tablets (768px and below) */
 @media screen and (max-width: 768px) {
+
 }
 
 /* For small screens (480px and below) */
@@ -771,6 +1024,7 @@ header {
     margin-top: 3rem;
     gap: 20px;
   }
+
   .bright-section-content-elements {
     display: flex;
     justify-content: start;
@@ -795,7 +1049,7 @@ header {
     text-decoration-skip-ink: none;
   }
   
-.bright-companies {
+  .bright-companies {
     width: 100%;
     display: flex;
     justify-content: space-between;

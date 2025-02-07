@@ -2,7 +2,7 @@ const carouselContainer = document.querySelector('.carousel-container');
 const cards = document.querySelectorAll('.testinomial-content-elements');
 
 function cloneCardsForSmallScreens() {
-  if (window.innerWidth <= 768) {
+  if (window.innerWidth <= 1080) {
     cards.forEach((card) => {
       const clone = card.cloneNode(true);
       carouselContainer.appendChild(clone);
